@@ -77,7 +77,7 @@ assembleDebug:
     - ./gradlew assembleDebug
   artifacts:
     paths:
-      - app/build/outputs/
+      - ./app/build/outputs/app-debug.apk
 
 # Run all tests, if any fails, interrupt the pipeline(fail it)
 debugTests:
